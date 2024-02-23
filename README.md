@@ -13,3 +13,5 @@ Note: Indices 18-25 are not used in this publication.
 For single odorant data, the odorant in position 1 corresponds to a blank odorant. The following odorant indices are provided in the publication. 
 
 For mixture experiments, for both bouton datasets, the blank odorant index is position 8. The remaining 100 odorants follow the index in supplementary table 3. 
+
+Data extraction code uses a modified version of the CaImAn CMNFe pipeline (https://github.com/flatironinstitute/CaImAn) and NoRMCorre for motion correction and denoising (https://github.com/flatironinstitute/NoRMCorre). To execute run the function “extract_imaging_data.m”. Input requires an integer “frame_rate” and a logical for running motion correction. Data must exist in a directory containing.tiff files.
