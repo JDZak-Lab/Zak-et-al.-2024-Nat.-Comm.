@@ -6,6 +6,9 @@ Datasets will open as a cell array where each cell is an imaging field organized
 An exception is made for “glomeruli_concentrations. This data is provided as a single matrix organized as: region of interest x odorant.
 
 For concentration-related data, odorants are interleaved. An index of ascending odorant order is provided for each dataset. Position 1 in each index corresponds to a blank odorant trial.
+Figure 6 index: 1 16 14 12 10 8 6 4 2
+Supplementary Figure 6 index: 1 17 15 13 11 9 7 5 3
+Note: Indices 18-25 are not used in this publication. 
 
 For single odorant data, the odorant in position 1 corresponds to a blank odorant. The following odorant indices are provided in the publication. 
 
